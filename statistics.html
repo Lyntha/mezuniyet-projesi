@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toplumsal Cinsiyet Eşitliği</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-container fixed-top">
+    <div class="container">
+      <a class="navbar-brand navbar-item" href="index.html">Toplumsal Cinsiyet Eşitliği </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link navbar-item" href="statistics.html">Veriler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-item" href="news.html">Haberler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-item" href="success-gallery.html">Başarı Galerisi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="section2" class="container py-5">
+    <h2>Veriler</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Cinsiyet Eşitliğinde En İyi Performans Gösteren Ülkeler (Küresel Cinsiyet Uçurumu Endeksi 2024):
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              2024 yılı Küresel Cinsiyet Eşitliği Endeksi'ne göre, dünya genelinde cinsiyet farkının %68,6'sı kapatılmış
+              durumda.
+              Geçen yıla kıyasla sadece %0,1'lik bir iyileşme sağlandı, bu da ilerlemenin oldukça yavaşladığını
+              gösteriyor. Mevcut verilere göre, tam cinsiyet eşitliğine ulaşmak için önümüzde 134 yıl var. Bu süre, 2030
+              Sürdürülebilir Kalkınma Hedefleri'nin belirlediği hedeflerden çok daha uzun.
+            </p>
+            <p>
+              <strong>Öne çıkan detaylar:</strong>
+            <ul>
+              <li>2024'te rapora dahil edilen ülkelerin %97'si cinsiyet farkının %60'ını aşmayı başardı. 2006'da bu oran
+                %85 seviyesindeydi.</li>
+              <li>İzlanda, %93,5 eşitlik oranıyla 15 yıldır birinci sıradaki yerini koruyor ve eşitlik farkının %90’ını
+                kapatan tek ülke olmayı sürdürüyor.</li>
+              <li>İlk 10'da yer alan diğer ülkelerin çoğu, %80'in üzerinde bir eşitlik oranına ulaşmış durumda.</li>
+            </ul>
+            </p>
+            <h4>İlk 10 Ülke ve İlerleme Durumları</h4>
+            <div class="progress-container">
+              <div class="country-name">İzlanda</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 93.5%;" aria-valuenow="93.5"
+                  aria-valuemin="0" aria-valuemax="100">93,5%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">Finlandiya</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 87.5%;" aria-valuenow="87.5"
+                  aria-valuemin="0" aria-valuemax="100">87,5%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">Norveç</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 87.5%;" aria-valuenow="87.5"
+                  aria-valuemin="0" aria-valuemax="100">87,5%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">Yeni Zelanda</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 83.5%;" aria-valuenow="83.5"
+                  aria-valuemin="0" aria-valuemax="100">83,5%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">İsveç</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 81.6%;" aria-valuenow="81.6"
+                  aria-valuemin="0" aria-valuemax="100">81,6%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">Nikaragua</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 81.1%;" aria-valuenow="81.1"
+                  aria-valuemin="0" aria-valuemax="100">81,1%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">Almanya</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 81%;" aria-valuenow="81" aria-valuemin="0"
+                  aria-valuemax="100">81%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">Namibya</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 80.5%;" aria-valuenow="80.5"
+                  aria-valuemin="0" aria-valuemax="100">80,5%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">İrlanda</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 80.2%;" aria-valuenow="80.2"
+                  aria-valuemin="0" aria-valuemax="100">80,2%</div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="country-name">İspanya</div>
+              <div class="progress progress-bar-container">
+                <div class="progress-bar" role="progressbar" style="width: 79.7%;" aria-valuenow="79.7"
+                  aria-valuemin="0" aria-valuemax="100">79,7%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Küresel İşgücü Piyasasında Cinsiyet Farkının Değişimi
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Küresel işgücü katılımındaki cinsiyet eşitliği, 2018 seviyelerinin üzerine çıkarak 2006'dan beri takip
+              edilen ülkeler için %65,7’ye, 2024’te değerlendirilen ülkeler için ise %66,7’ye ulaştı. Ancak, bu
+              ilerlemeye rağmen bölgesel farklılıklar dikkat çekiyor. Kadınların işgücüne katılım oranı küresel ölçekte
+              toparlanma gösterse de, eşitlik sağlama hızı farklı bölgelerde büyük ölçüde değişiyor.</p>
+
+            <p>Bu trendin sürdürülebilirliği belirsizliğini koruyor. Özellikle düşük gelirli ekonomilerde küresel
+              işsizliğin artması bekleniyor ve “iş boşluğu” olarak tanımlanan, iş arayanları kapsayan daha geniş bir
+              ölçümde kadınların orantısız bir şekilde temsil edildiği görülüyor.</p>
+
+            <p>Bu veriler, işgücü piyasasında kadınlar için eşitliğin iyileşmekte olduğunu, ancak bu iyileşmenin
+              bölgelere ve ekonomik koşullara göre ciddi şekilde değişiklik gösterdiğini ortaya koyuyor.</p>
+            <div class="row">
+              <div class="col-md-6 mb-4 pie-chart-container">
+                <h5 style="text-align: center;">Kadınların İş Gücüne Katılımı</h5>
+                <canvas id="chart1" width="250" height="250"></canvas>
+              </div>
+              <div class="col-md-6 mb-4 pie-chart-container">
+                <h5 style="text-align: center;">Kadınların İş Gücüne Katılımı </h5>
+                <canvas id="chart2" width="250" height="250"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            İşgücünde Temsil ve Liderlik
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>2024 yılı LinkedIn verilerine göre, kadınların işgücündeki temsili neredeyse tüm sektörlerde ve
+              ekonomilerde erkeklerin gerisinde kalıyor. Kadınlar, küresel işgücünün %42’sini ve üst düzey liderlerin
+              yalnızca %31,7’sini oluşturuyor. En üst düzey pozisyonlar, kadınlar için hala zor erişilebilir durumda. Bu
+              durum, "zirveye çıkışta düşüş" olarak tanımlanan küresel eğilimle ortaya konuluyor: 2024’te, başlangıç
+              seviyesinden yönetim kurulu (C-suite) pozisyonlarına kadar yükselmede temsil oranı arasında %21,5’lik bir
+              fark bulunuyor. Kadınlar, giriş seviyesindeki rollerin neredeyse yarısını doldursa da C-suite
+              pozisyonlarında yalnızca dörtte bir oranında temsil ediliyor.</p>
+            <p>Önceki yıllarda umut verici bir eğilim olarak öne çıkan kadınların liderlik pozisyonlarına atanması,
+              2023'te %37,5'ten %36,9’a geriledi ve 2024'ün başlarında %36,4’e düşerek 2021 seviyelerinin altına indi.
+              LinkedIn araştırmaları, kötüleşen makroekonomik koşulların, kadınların üst düzey liderlik rollerine
+              atanmasını olumsuz etkilediğini gösteriyor. Ancak, kadınların işgücündeki temsili arttıkça, ekonomik
+              durgunluk dönemlerinde işten çıkarmalara karşı direnç de güçleniyor.</p>
+            <p>Bu veriler, kadınların liderlik rollerine erişiminde ilerleme sağlamak için daha fazla çaba gerektiğini
+              ortaya koyuyor.</p>
+            <div class="bar-chart-container">
+              <canvas id="linkedin-bar-chart" width="400" height="200"></canvas>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Yapay Zeka Mühendisliğinde Cinsiyet Temsili
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>World Economic Forum’un 2024 Küresel Cinsiyet Eşitliği Raporu, yapay zeka mühendisliğinde kadınların
+              sektörel temsiliyetine ilişkin önemli bulgular sunmaktadır. Raporda, kadınların özellikle eğitim (%41),
+              finansal hizmetler (%40) ve profesyonel hizmetler (%36) sektörlerinde daha yüksek oranlarda temsil
+              edildiği belirtilmiştir. Bu sektörler, kadınların yapay zeka mühendisliği pozisyonlarına erişim ve katkı
+              sağlama açısından daha kapsayıcı olduğunu göstermektedir. Ancak üretim (%31) ve teknoloji, bilgi ve medya
+              (%34) gibi sektörler, kadınların temsilinin daha sınırlı olduğu alanlar arasında yer alıyor.</p>
+            <p>Rapor, yapay zeka mühendisliği alanında kadınların giderek artan bir rol üstlendiğini belirtmekle
+              birlikte, bu oranların genellikle %30-40 aralığında sınırlı kaldığına dikkat çekiyor. Sektörlerin
+              kadınlara daha fazla fırsat sunması, toplumsal cinsiyet eşitliğini artırmada önemli bir adım olarak
+              görülmektedir. Buna rağmen, rapor cinsiyet eşitliği hedefine ulaşmanın mevcut hızla 134 yıl sürebileceğini
+              öngörmektedir, bu da daha hızlı ilerleme gerekliliğini vurgulamaktadır​</p>
+            <div class="donut-chart-container">
+              <div class="donut-chart-item-container">
+                <h5>Eğitim Sektörü</h5>
+                <canvas class="donut-chart-item" id="donut_chart1"></canvas>
+              </div>
+              <div class="donut-chart-item-container">
+                <h5>Finansal Hizmetler</h5>
+                <canvas class="donut-chart-item" id="donut_chart2"></canvas>
+              </div>
+              <div class="donut-chart-item-container">
+                <h5>Profesyonel Hizmetler</h5>
+                <canvas class="donut-chart-item" id="donut_chart3"></canvas>
+              </div>
+              <div class="donut-chart-item-container">
+                <h5>Teknoloji, Bilgi ve Medya</h5>
+                <canvas class="donut-chart-item" id="donut_chart5"></canvas>
+              </div>
+              <div class="donut-chart-item-container">
+                <h5>Üretim</h5>
+                <canvas class="donut-chart-item" id="donut_chart4"></canvas>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">Toplumsal Cinsiyet Eşitliği Raporu 2024</span>
+      </div>
+      <form>
+        <p>Gelişmelerden haberdar olmak için e-posta bültenimize abone olun!</p>
+        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden">Email</label>
+          <input id="newsletter1" type="email" class="form-control" placeholder="Mail adresiniz">
+          <button class="btn btn-primary" type="button">Abone ol</button>
+        </div>
+      </form>
+
+    </footer>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
